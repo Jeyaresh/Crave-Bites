@@ -2,9 +2,6 @@
   #index.css
 \*-----------------------------------*/
 
-/**
- * copyright 
- */
 
 
 
@@ -36,7 +33,7 @@
   /* gradient colors */
 
   --loading-text-gradient: linear-gradient(90deg, transparent 0% 16.66%, var(--smoky-black-3) 33.33% 50%,  transparent 66.66% 75%);
-  --gradient-1: linear-gradient(to top,hsla(0, 0%, 0%, 0.9),hsla(0, 0%, 0%, 0.7),transparent);
+  --gradient-1: linear-gradient(to top,hsla(0, 0%, 0%, 0.7),hsla(0, 0%, 0%, 0.7),transparent);
 
 
   /* typography */ 
@@ -197,9 +194,9 @@ body.nav-active { overflow: hidden; }
 ::-webkit-scrollbar-thumb { background-color: var(--gold-crayola); }
 
 
-/*-----------------------------------*\
-  #TYPOGRAPHY
-\*-----------------------------------*/
+                                                  /*-----------------------------------*\
+                                                               #TYPOGRAPHY
+                                                  \*-----------------------------------*/
 
 .display-1,
 .headline-1,
@@ -277,9 +274,9 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
+                                                    /*-----------------------------------*\
+                                                              #REUSED STYLE
+                                                    \*-----------------------------------*/
 .container{
   padding-inline: 16px;
 }
@@ -580,9 +577,9 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #PRELOAD
-\*-----------------------------------*/
+                                                 /*-----------------------------------*\
+                                                                 #PRELOAD
+                                                 \*-----------------------------------*/
 .preload{
    background: var(--gradient-1);
   background-color: hsl(198, 73%, 90%);
@@ -612,7 +609,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .circle{
-  width: 100px;
+  width: 50px;
   height: 50px;
   border-radius: var(--radius-circle);
   border: 3px solid var(--white);
@@ -629,7 +626,7 @@ body.nav-active { overflow: hidden; }
 .preload .text{
   background-image: var(--loading-text-gradient);
   background-size: 500%;
-  font-size: calc(2rem + 3vw);
+  font-size: calc(0.5rem + 2vw);
   font-weight: var(--weight-bold);
   line-height: 1em;
   text-transform: uppercase;
@@ -1095,6 +1092,7 @@ body.nav-active { overflow: hidden; }
   transition-delay: 0;
   z-index: -1;
   will-change: transform;
+  display: none;
 }
 
 
@@ -1114,6 +1112,20 @@ body.nav-active { overflow: hidden; }
 .service .card-title {
   margin-block-end: 12px;
 }
+
+
+/* ✅ Card grid layout */
+.gl {
+  display: grid;
+ grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.gl .text-1 {
+  max-height: 30px;
+  width: 40px;
+}
+
 
 
 
@@ -1362,7 +1374,11 @@ body.nav-active { overflow: hidden; }
 }
 
 
-
+.menu img{
+  height: 100px;
+  width: 100px;
+  object-fit: inherit;
+}
 
 
 
@@ -1939,8 +1955,7 @@ textarea.input-field {
         }
 
 
-
-
+        
             /* menu */
 
 
@@ -2165,6 +2180,7 @@ textarea.input-field {
       right: 0;
     }
 
+
       /*about*/
 
 
@@ -2271,8 +2287,7 @@ textarea.input-field {
                 margin-left: 280px;
               }
 
-
-
+ 
 
 }
 
@@ -2459,9 +2474,6 @@ textarea.input-field {
 
 
 }
-
-
-
 
 
 
@@ -2681,3 +2693,15 @@ textarea.input-field {
         display: none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
