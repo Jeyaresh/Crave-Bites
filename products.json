@@ -3,7 +3,7 @@
         "id":1,
         "name":"TASTY CAKES",
         "price":"Rs 200",
-        "image":"assets/1.png",
+        "image":"cake/9.png",
         "description":"Cake is a sweet, baked dessert made from flour, sugar, eggs, and butter, often decorated with icing or frosting.Cake is a sweet, baked dessert made from flour, sugar, eggs, and butter, often decorated with icing or frosting."
     },
 
@@ -11,7 +11,7 @@
         "id":2,
         "name":"TASTY CAKES",
         "price":"Rs 200",
-        "image":"assets/2.png",
+        "image":"cake/10.png",
         "description":"Cake is a sweet, baked dessert made from flour, sugar, eggs, and butter, often decorated with icing or frosting.Cake is a sweet, baked dessert made from flour, sugar, eggs, and butter, often decorated with icing or frosting."
     },
 
