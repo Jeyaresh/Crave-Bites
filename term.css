@@ -649,7 +649,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .logo img{
-  height: 50px;
+  height: 60px;
   object-fit: cover;
 }
 .logo span {
@@ -667,9 +667,11 @@ body.nav-active { overflow: hidden; }
   position: fixed;
   top: 0;
   left: 0;
+  max-height: 120px;
   width: 100%;
-  color: black;
-  background-color: transparent;
+  color: var(--white);
+  background: var(--gradient-1);
+  background-color: var(--gold-crayola);
   padding-block: 40px;
   z-index: 4;
   border-block-end: 1px solid transparent;
@@ -777,6 +779,7 @@ body.nav-active { overflow: hidden; }
 .navbar-list{
   border-block-end: 1px-solid var(--white-alpha-20);
   margin-block-end: 100px;
+  color: var(--white);
 }
 
 .navbar-item {

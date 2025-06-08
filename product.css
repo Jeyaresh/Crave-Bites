@@ -649,7 +649,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .logo img{
-  height: 50px;
+  height: 60px;
   object-fit: cover;
 }
 .logo span {
@@ -668,7 +668,7 @@ body.nav-active { overflow: hidden; }
   top: 0;
   left: 0;
   width: 100%;
-  color: black;
+  color: var(--white);
   background-color: transparent;
   padding-block: 40px;
   z-index: 4;
@@ -777,6 +777,7 @@ body.nav-active { overflow: hidden; }
 .navbar-list{
   border-block-end: 1px-solid var(--white-alpha-20);
   margin-block-end: 100px;
+  color: var(--white);
 }
 
 .navbar-item {
@@ -1105,7 +1106,7 @@ a{
 .footer-brand {
   position: relative;
   padding: 50px 40px;
-  background: var(--smoky-black-1) url(../images/footer-form-bg.png);
+  background: var(--smoky-black-1) ;
   background-position: center top;
   background-repeat: repeat;
   border-radius: 30px;

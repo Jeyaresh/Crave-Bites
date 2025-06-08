@@ -2094,6 +2094,12 @@ textarea.input-field {
 
 
 /*Reservation*/
+
+.reservation .rf{
+  border-radius: 20px;
+
+}
+
    
 .reservation .input-wrapper {
   display: grid;
